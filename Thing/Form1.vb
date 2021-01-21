@@ -8,12 +8,12 @@ Public Class Form1
 
     Public Sub EmailSend(smtpServer As Object) '(Dim smtpServer As New SmtpClient)
         'Dim mail As New MailMessage()
-        'smtpServer.Credentials = New Net.NetworkCredential("throwawaybabyxd@gmail.com", "Throwback123")
+        'smtpServer.Credentials = New Net.NetworkCredential("EMAIL_ADDRESS", "PASSWORD")
         'smtpServer.Port = 587
         'smtpServer.Host = "smtp.gmail.com"
         'smtpServer.EnableSsl = True
         'mail = New MailMessage()
-        'mail.From = New MailAddress("throwawaybabyxd@gmail.com", "IDK")
+        'mail.From = New MailAddress("EMAIL_ADDRESS", "HEADER")
         'mail.To.Add("REDACTED")
         'mail.Subject = "Info"
         'mail.Body = txtHeader.Text & txtmessage.Text
